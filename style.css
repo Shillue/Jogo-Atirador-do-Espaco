@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    overflow: hidden;
+    background: url("imagens/espaço.jpg");
+    background-size: cover;
+}
+#tabuleiro{
+    position: relative;
+    width: 500px;
+    height: 550px;
+    margin: 40px auto;
+    border: 8px solid white;
+    background-color: black;  
+    overflow: hidden;  
+}
+.aliens{
+    position: absolute;
+    top: 0;
+    width: 90px;
+    height: 90px;
+    background: url("imagens/alien1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.balas{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    background: url("imagens/bala.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+#foguete{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: url("imagens/foguete.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 50%;
+    bottom: 0px;
+    z-index: 1;
+}
+label{
+    position: absolute;
+    top: 2px;
+    text-align: left;
+    margin: 10px;
+    font-size: 17px;
+    color: white;
+}
+#pontos{
+    position: absolute;
+    top: 2px;
+    left: 55px;
+    margin: 10px;
+    font-size: 17px;
+    color: white;
+}
